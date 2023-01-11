@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    background-image: url(./img/banner/banner1.png);
+    background-repeat: no-repeat;
+ width: 100%;
+ height: 800px;
+ display: flex;
+    justify-content: center;
+
+}
+.banner-text h2{
+    margin-top: 230px;
+    margin-left: 700px;
+    margin-right: 100px;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 780px;
+    margin-right: 100px;
+    margin-top: 10px;
+    text-align: right;
+    color: #444343 ;
+
+}
+.banner-text button{
+    margin-top: 20px;
+    margin-left: 1120px;
+    height: 64px;
+width: 130px;
+border-radius: 5px;
+background-color: rgb(236, 83, 28);
+border: none;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: white;
+}
+
+.failures{
+    display: flex;
+}
+.failures .failures-img{
+    margin : 90px 40px 40px 150px;
+}
+.failures .failures-img img{
+
+    height: 600px;
+   
+}
+.failures .failures-text{
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+.failures .failures-text h3{
+    padding: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-right: 150px;
+}
+
+.failures .failures-text p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #444343 ;
+    margin-right: 170px;
+    margin-left: 10px;
+
+}
+
+.Plans{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Plans h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.Plans .content{
+    display: flex;
+    margin: 10px 100px;
+}
+.Plans .content div{
+    margin: 20px 65px;
+}
+.Plans .content div img{
+    margin-left: 25px;
+}
+.Plans .content div h4{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.Plans .content div p{
+    font-size: 18px;
+    color: #444343 ;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+.mindset .bg{
+    background-image: url(./img/watch.png);
+    margin: 20px 150px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.mindset .bg h2{
+    font-size: 35px;
+    margin-left: 60px;
+    margin-right: 720px;
+    padding-top: 80px;
+    font-weight: 600;
+    color: white;
+}
+.mindset .bg button{
+    color: rgb(236, 83, 28);
+    padding: 15px 27px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 60px;
+margin-top: 10px;
+margin-bottom: 25px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    display: flex;
+}
+.footer .future{
+    max-width: 650px;
+    margin: 120px 40px 90px 120px;
+}
+.footer .future h2{
+    font-size: 35px;
+}
+.footer .future p{
+    margin-top: 20px;
+    margin-right: 70px;
+    color: #a89a9a ;
+    font-size: 15px;
+    line-height: 19px;
+}
+.footer .future img{
+    margin-right: 20px;
+    margin-top: 20px;    
+}
+.footer .subscribe{
+    margin: 100px 40px 80px 70px;
+
+}
+.footer .subscribe p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.footer .subscribe input{
+    display: block;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 40px 15px 15px;
+    font-size: 18px;
+}
+.footer .subscribe button{
+    background-color: white;
+    color: rgb(236, 83, 28);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 27px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 15px;
+}
